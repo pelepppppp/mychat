@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pelepppppp/mychat/issues"
   },
-  "homepage": "https://github.com/pelepppppp/mychat#readme"
+  "homepage": "https://github.com/pelepppppp/mychat#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
