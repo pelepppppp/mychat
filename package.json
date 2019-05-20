@@ -1,22 +1,26 @@
 {
-  "name": "mychat",
+  "name": "myfirstchatproject",
   "version": "1.0.0",
-  "description": "This is my chat project",
-  "main": "index.js",
+  "description": "MyChat",
+  "main": "server.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "sever",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pelepppppp/mychat.git"
+    "url": "git+https://github.com/BlindHonk0897/MyChat-PN-CHIKA-BOX-.git"
   },
-  "author": "Philip Bautista",
+  "author": "Danilo Alingasa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pelepppppp/mychat/issues"
+    "url": "https://github.com/BlindHonk0897/MyChat-PN-CHIKA-BOX-/issues"
   },
-  "homepage": "https://github.com/pelepppppp/mychat#readme",
+  "homepage": "https://github.com/BlindHonk0897/MyChat-PN-CHIKA-BOX-#readme",
   "dependencies": {
-    "express": "^4.15.2"
-  }
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {}
 }

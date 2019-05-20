@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Chat</title>
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="/js/handler.js"></script>
+   </head>
+   <body>
+      <div id="logout"><input  type="submit" name="" value="Log Out"  id="logO" class="btn btn-info" style="float: right; margin-right: 3%; margin-top: 1%;"></div>
+      <div class="container">
+         <div class="row" id="userFormArea">
+            <div id="form-border">
+               <form id="userForm">
+                  <div class="form-group" style="border: 1px solid #bfbfbf; padding: 2% 2% 2% 2%; border-radius: 10px; width: 20%; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                     <input class="form-control" id="username" placeholder="Nickname..." required="">
+                     <input type="submit" class="btn btn-success btn-block" id="log" value="Login" style="margin-top: 3%;">
+                  </div>
+               </form>
+            </div>
+         </div>
+         <div id="messageArea" class="row">
+            <!-- <div class="col-md-4">
+            	<div class="well" id="list-user-d">
+            		<h1>Online Users</h1>
+            		<ul class="list-group" id="Users"></ul>
+            	</div>
+				</div> -->
+				<div id="chat">
+					<textarea rows="20" disabled="" id="txtChat" style="width: 100%; margin-top: 10%;" class="form-control"></textarea>
+            	<div>
+            		<form id="messageForm">
+            			<div class="form-group" style="margin-top: 2%;">
+									<textarea class="form-control" id="message" placeholder="Enter Message" style="display: inline-block; width: 90%; height: 50px;"></textarea>
+									<input type="submit" class="btn btn-primary" value="Send" style="float: right; width: 9%; height: 50px;">
+            			</div>
+            		</form>
+					</div>
+				</div>
+            </div>
+      </div>
+	</body>
+	<script>
+		$(document).ready(function(){
+			$("#logout").hide();
+			$("#chat").hide();
+
+			$("#log").click(function(){
+				$("#userFormArea").hide();
+				$("#logout").show();
+				$("#chat").show();
+			});
+			
+		});
+	</script>
+</html>

@@ -1,0 +1,108 @@
+
+
+body{
+
+	/* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/chat.jpg"); */
+	background-size: cover;
+	padding-top: 30px;
+	background-size: fixed;
+}
+#logout{
+
+	padding-left: 1180px
+
+}
+#logout input{
+	width: 100px;
+	text-align: center;
+	background-color: transparent;
+	border: none;
+	border: 1px solid #fff;
+	color: #fff;
+	display: none;
+}
+#messageArea{
+			display: none;
+}
+
+#logo-Image img{
+	width: 200px;
+	height: 200px;
+}
+
+#title-Label{
+	float: right;
+	padding-top: 80px;
+	padding-right: 800px;
+}
+
+#Label-Text{
+	 padding-top: 10px;
+     color:rgba(211, 84, 0, 1);
+}
+
+#username{
+	background-color: rgba(189, 195, 199, 1);
+}
+
+#log{
+	float: right;
+	padding: 10px;
+	padding-right: 20px;
+    position: center;
+	background-color: rgba(211, 84, 0, 1);
+}
+
+#sign-Up{
+	background-color: transparent;
+}
+
+#form-border{
+	width: 600px;
+	height: auto;
+	background-color: transparent;
+	box-sizing:border-box;
+	border: 1px solid red;
+}
+.form-control{
+	width: 500px;
+}
+
+#list-user-d{
+	background-color: transparent;
+	color: green;
+	font-size: 15px;
+}
+#list-user-d h1{
+	color:#fff;
+}
+#message{
+	background-color: transparent;
+	color: #fff;
+}
+
+#Users{
+	background-color: transparent;
+	overflow-y: scroll;
+	height:  100px;
+}
+#chat{
+	display: none;
+	float: right;
+	overflow-y: scroll; 
+	height:250px
+}
+
+#Label-Message{
+     color:rgba(211, 84, 0, 1);
+}
+
+#txtChat{
+	display: none;
+	background-color: transparent;
+	opacity: .5;
+	color:white;
+	float: right;
+	border: 1px solid #fff;
+	font-size: 20px;
+}
