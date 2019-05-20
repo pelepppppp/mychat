@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlindHonk0897/MyChat-PN-CHIKA-BOX-.git"
+    "url": "git+https://github.com/pelepppppp/mychat.git"
   },
-  "author": "Danilo Alingasa",
+  "author": "Philip Bautista",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BlindHonk0897/MyChat-PN-CHIKA-BOX-/issues"
+    "url": "https://github.com/pelepppppp/mychat/issues"
   },
-  "homepage": "https://github.com/BlindHonk0897/MyChat-PN-CHIKA-BOX-#readme",
+  "homepage": "https://github.com/pelepppppp/mychat#readme",
   "dependencies": {
     "express": "^4.16.4",
     "mysql": "^2.16.0",

@@ -1,2 +1,2 @@
-# MyChat-PN-CHIKA-BOX-
+# mychat
 My first chat projects 

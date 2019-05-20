@@ -22,36 +22,36 @@
          </div>
          <div id="messageArea" class="row">
             <!-- <div class="col-md-4">
-            	<div class="well" id="list-user-d">
-            		<h1>Online Users</h1>
-            		<ul class="list-group" id="Users"></ul>
-            	</div>
-				</div> -->
-				<div id="chat">
-					<textarea rows="20" disabled="" id="txtChat" style="width: 100%; margin-top: 10%;" class="form-control"></textarea>
-            	<div>
-            		<form id="messageForm">
-            			<div class="form-group" style="margin-top: 2%;">
-									<textarea class="form-control" id="message" placeholder="Enter Message" style="display: inline-block; width: 90%; height: 50px;"></textarea>
-									<input type="submit" class="btn btn-primary" value="Send" style="float: right; width: 9%; height: 50px;">
-            			</div>
-            		</form>
-					</div>
-				</div>
+               <div class="well" id="list-user-d">
+               	<h1>Online Users</h1>
+               	<ul class="list-group" id="Users"></ul>
+               </div>
+               </div> -->
+            <div id="chat">
+               <textarea rows="20" disabled="" id="txtChat" style="width: 100%; margin-top: 10%;" class="form-control"></textarea>
+               <div>
+                  <form id="messageForm">
+                     <div class="form-group" style="margin-top: 2%;">
+                        <textarea class="form-control" id="message" placeholder="Enter Message" style="display: inline-block; width: 90%; height: 50px;"></textarea>
+                        <input type="submit" class="btn btn-primary" value="Send" style="float: right; width: 9%; height: 50px;">
+                     </div>
+                  </form>
+               </div>
             </div>
+         </div>
       </div>
-	</body>
-	<script>
-		$(document).ready(function(){
-			$("#logout").hide();
-			$("#chat").hide();
-
-			$("#log").click(function(){
-				$("#userFormArea").hide();
-				$("#logout").show();
-				$("#chat").show();
-			});
-			
-		});
-	</script>
+   </body>
+   <script>
+      $(document).ready(function(){
+      	$("#logout").hide();
+      	$("#chat").hide();
+      
+      	$("#log").click(function(){
+      		$("#userFormArea").hide();
+      		$("#logout").show();
+      		$("#chat").show();
+      	});
+      	
+      });
+   </script>
 </html>
